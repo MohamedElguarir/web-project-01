@@ -1,0 +1,184 @@
+body {
+  font-family: Inter;
+  margin: 0;
+  padding: 0;
+  background-color: #0262de;
+}
+
+.body-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hero-section {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero-section h1, .hero-section h2, .hero-section h3 {
+  margin: 15px 0;
+  text-transform: uppercase;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.hero-image {
+  margin-top: 10px;
+  border-radius: 1px;
+  box-shadow: 0 0 20px #ccc;
+  /* slightly rotate the image */
+  transform: rotate(-2deg);
+  margin-bottom: 2rem;
+}
+
+.story-headline {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #222;
+}
+
+.story-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.social-section {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.experience-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.toughts-section {
+  text-align: center;
+  padding: 10px;
+  background-color: #ccc;
+}
+
+.toughts-headline {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #222;
+}
+
+.toughts-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.contact-section {
+  background-color: #eee;
+  padding: 20px;
+  text-align: center;
+  color: #222;
+}
+
+.contact-headline {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.contact-form {
+  width: 300px;
+  margin: 20px auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  /* make it non resizeable in width only in height */
+  resize: vertical;
+  font-family: Inter;
+  font-size: 1rem;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #222;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
+/* submit on hover more styled*/
+.contact-form input[type="submit"]:hover {
+  background-color: #333;
+}
+.footer-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-name {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #999;
+}
+
+.footer-phone, .footer-email {
+  font-size: 1.2rem;
+  color: #999;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3px 0;
+  
+
+
+}
+
+
+.social-icons a {
+  color: #999;
+  font-size: 10px;
+  text-decoration: none;
+  margin: 0 2px;
+}
+
+.social-icons-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3px 0;
+}
