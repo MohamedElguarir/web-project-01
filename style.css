@@ -294,7 +294,6 @@ body {
   padding-bottom: 30px;
 }
 
-/* style the form */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -307,7 +306,7 @@ body {
   font-size: 1.2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .contact-form {
   display: flex;
   flex-direction: column;
@@ -342,9 +341,8 @@ body {
   color: #ffffff;
   font-family: futura-pt;
   font-size: 1.2rem;
-  /* resize the textarea vertically */
   resize: none;
-  height: 20rem;
+  height: 10rem;
 
   
 }
@@ -432,5 +430,16 @@ body {
   justify-content: center;
   padding-bottom: 10px;
   width: 100%;
+  padding-top: 5px;
+}
+
+.social-icons-wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  width: 100%;
+  gap: 10px;
   padding-top: 5px;
 }
