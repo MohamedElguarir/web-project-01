@@ -5,68 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>This is a simple portfolio!</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-</style>
 </head>
 <body>
     <div class="body-wrapper">
         <div class="hero-section">
-                <h1>Hey! I'm Mohamed Elguarir</h1>
-                <h3>A student, blogger and tech lover.</h3>
-                <!--<p>Hi, I'm Mohamed Elguarir, a student and a tech lover. I love to write about tech and I'm also a blogger. I'm currently learning web development and I'm also a freelancer. I'm also a gamer and I love to play games.</p>
-                -->
-                <img class="hero-image" src="assets/hero-image.jpg" width="50%" alt="This is a hero image.">
+            <div class="hero-wrap">
+                <h1 class="hero-heading">Hey! I'm Mohamed Elguarir</h1>
+                 <p class="hero-subheading">
+                    I am an enthusiastic learner with a passion for technology and blogging. I enjoy writing about tech-related topics and am currently in the process of studying web development. Additionally, I am an enthusiastic gamer.</p>
+                <img class="hero-image" src="assets/hero-image.jpg" width="80%" alt="This is a hero image.">
                 <h2 class="story-headline">Here's My Story</h2>
                 <p class="story-paragraph">Hi, I'm Mohamed Elguarir, a student and a tech lover. I love to write about tech and I'm also a blogger. I'm currently learning web development and I'm also a freelancer. I'm also a gamer and love playing games.</p>
         </div>
-
-        
+    </div>
         <div class="social-section">
             <div class="social-links">
-                <a href="https://instagram.com">Instagram</a>
-                <a href="https://linkedIn.com">LinkedIn</a>
-                <a href="https://facebook.com">Facebook</a>
-                <a href="https://drive.google.com">Resume</a>
+                <a class="social-item" href="https://instagram.com"><h1>Instagram</h1></a>
+                <a class="social-item" href="https://linkedIn.com"><h1>LinkedIn</h1></a>
+                <a class="social-item" href="https://facebook.com"><h1>Facebook</h1></a>
+                <a class="social-item last-item" href="https://drive.google.com"><h1>Resume</h1></a>
             </div>
         </div>
         
         <div class="experience-wrap">
             <div class="experience-col">
-
-            </div>
-            <div class="skill-col">
-
+                <ul class="items-list">
+                    <li class="item title left">My Experience So Far</li>
+                    <li class="item normal">Education</li>
+                    <li class="item normal">High School Diploma</li>
+                    <li class="item bold">Boston Johnstone High</li>
+                    <li class="item normal">BA in Communications</li>
+                    <li class="item bold">Sedona Business School</li>
+                    <li class="item normal">Internship</li>
+                    <li class="item normal">I Year Internship</li>
+                    <li class="item bold">PlayScout Enterprise Startup</li>
+                    <li> <a href="https://drive.google.com"> <button class="resume-button">Resume</button></a></li>
+                    
+                </ul>
+                </div>
+            <div class="skill-col ">
+                <ul class="items-list right">
+                    <li class="item title">Skills & Interests</li>
+                    <i class="fa-solid fa-asterisk"></i>
+                    <svg class="astricks-icon" width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.00018 0.0625C5.44706 0.0625 5.00018 0.537305 5.00018 1.125V5.62402L1.51581 3.40273C1.04081 3.10059 0.428309 3.26328 0.143934 3.76797C-0.140441 4.27266 0.0126843 4.92344 0.487684 5.22559L4.05643 7.5L0.484559 9.77773C0.00955907 10.0799 -0.143566 10.7307 0.140809 11.2354C0.425184 11.74 1.03768 11.9027 1.51268 11.6006L5.00018 9.37598V13.875C5.00018 14.4627 5.44706 14.9375 6.00018 14.9375C6.55331 14.9375 7.00018 14.4627 7.00018 13.875V9.37598L10.4846 11.5973C10.9596 11.8994 11.5721 11.7367 11.8564 11.232C12.1408 10.7273 11.9877 10.0766 11.5127 9.77441L7.94393 7.5L11.5158 5.22227C11.9908 4.92012 12.1439 4.26934 11.8596 3.76465C11.5752 3.25996 10.9627 3.09727 10.4877 3.39941L7.00018 5.62402V1.125C7.00018 0.537305 6.55331 0.0625 6.00018 0.0625Z" fill="#0262DE"/>
+                        </svg>                        
+                    <li class="item normal">Writing for Social Media</li>
+                    <li class="item normal">SEO</li>
+                    <li class="item normal">Video and Audio Editing</li>
+                    <li class="item normal">PR</li>
+                    <li class="item normal">Advertising</li>
+                    <li class="item normal">Journalism</li>
+                    <br><br><br>
+                    
+                    </ul>
             </div>
         </div>
 
         <div class="toughts-section">
-            <h2 class="toughts-headline">Some of My Thoughts</h2>
-            <p class="toughts-paragraph">
-                Lorem ipsum dolor sit
-                amet consectetur adipisicing elit.
-                Quisquam, quod. Quisquam
-                voluptatibus, quod
-                voluptatibus, quod
-                voluptatibus, quod
-            </p>
+            <div class="toughts-wrap">
+                <h2 class="toughts-headline">Some of My Thoughts</h2>
+                <p class="toughts-paragraph">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+               </p>
+            </div>
+            
         </div>
 
         <div class="contact-section">
-            <div class="contact headline">
-                <h2>Ready to Connect</h2>
-                <p>Don't hesitate to reach out</p>
+            <div class="contact-wrap">
+                <h2 class="contact-headline">Ready to Connect</h2>
+                <p class="contact-paragraph">Don't hesitate to reach out</p>
             </div>
             <div class="form-wrap">
                   <form action="send-mail.php" class="contact-form" method="post">
                     <label for="first_name">First Name</label>
-                    <input type="text" name="first_name" placeholder="First Name">
+                    <input type="text" name="first_name">
                     <label for="last_name">Last Name</label>
-                    <input type="text" name="last_name" placeholder="Last Name">
+                    <input type="text" name="last_name">
                     <label for="email">Email</label> 
-                    <input type="email" name="email" placeholder="Email"><br>
+                    <input type="email" name="email"><br>
                     <label for="message">Message</label>
-                    <textarea name="message" placeholder="Message"></textarea>
+                    <textarea name="message"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
@@ -74,7 +94,7 @@
             <div class="footer-info">
                 <h1 class="footer-name">Mohamed Elguarir</h1>
                 <p class="footer-phone">+212628975515</p>
-                <p class="footer-email"> <a href="mailto:moha@elguarir.com">moha@elguarir.com</a></p>
+                <a class="footer-email" href="moha@elguarir.com">moha@elguarir.com</a>
             </div>
         </div>
 
@@ -88,15 +108,6 @@
             </div>
             </div>
     </div>
-    
-    <div class="online-compiler">
-        <!--<iframe src="https://replit.com/@MohamedElguarir/code?embed=true#numbers.py" width="600" height="400" />
-        -->
-            
-    </div>
-
-
-
     
 </body>
 </html>
